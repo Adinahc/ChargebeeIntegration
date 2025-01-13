@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>API_Name__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>API Name</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cancel Subscription</fullName>
+                <default>true</default>
+                <label>Cancel Subscription</label>
+            </value>
+            <value>
+                <fullName>Pause Subscription with Date</fullName>
+                <default>false</default>
+                <label>Pause Subscription with Date</label>
+            </value>
+            <value>
+                <fullName>Pause Subscription without Date</fullName>
+                <default>false</default>
+                <label>Pause Subscription without Date</label>
+            </value>
+            <value>
+                <fullName>Resume Subscription</fullName>
+                <default>false</default>
+                <label>Resume Subscription</label>
+            </value>
+            <value>
+                <fullName>Update Subscription</fullName>
+                <default>false</default>
+                <label>Update Subscription</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

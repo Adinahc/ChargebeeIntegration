@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fetch_Unpaid_Invoices_for_Customer__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Fetch Unpaid Invoices for Customer</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>
